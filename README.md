@@ -80,4 +80,5 @@ Additional dance added for further analysis:
 - Use alternative techniques for classifier - computer vision, AI
 - Use different pose detection method
 - Calculate number of people in each dance more accurately
+- Get alternative clustering techniques working correctly
 
