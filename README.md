@@ -33,7 +33,11 @@ Additional dance added for further analysis:
 
 - Used AlphaPose - https://github.com/MVIG-SJTU/AlphaPose
 - Build using instructions from GitHub
-- Files were modified to suit project's need, these can be found in the AlphaPose scripts folder
+- Files were modified to suit project's need, these can be found in the AlphaPose scripts folder.
+      - Replace writer file in alphapose/utils
+      - Add process_videos into the scripts folder
+      - Add ‘256x192_res152_lr1e-3_1x-duc.yaml’ to directory ‘AlphaPose/configs/coco/resnet’
+      - Add ‘fast_421_res152_256x192.pth’ to directory  ‘AlphaPose/model_files’ (this file is available to download: https://github.com/MVIG-SJTU/AlphaPose/blob/master/docs/MODEL_ZOO.md
 
 ### Step 3 - Data Normalisation 
 
