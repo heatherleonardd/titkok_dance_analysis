@@ -2,7 +2,7 @@
 
 ## Description
 
-Project to investigate correlations and similarites between different TikTok dance trends and their impact on engagement. Uses AlphaPose for pose detection, a custom built classifier to determine whether a video contains dancing or not and clustering techniques to investifate similarites in choreography.
+Project to investigate correlations and similarites between different TikTok dance trends and their impact on engagement. Uses AlphaPose for pose detection, a custom built classifier to determine whether a video contains dancing or not and clustering techniques to investigate similarites in choreography.
 
 ## About
 
@@ -34,10 +34,10 @@ Additional dance added for further analysis:
 - Used AlphaPose - https://github.com/MVIG-SJTU/AlphaPose
 - Build using instructions from GitHub
 - Files were modified to suit project's need, these can be found in the AlphaPose scripts folder.
-      - Replace writer file in alphapose/utils
-      - Add process_videos into the scripts folder
-      - Add ‘256x192_res152_lr1e-3_1x-duc.yaml’ to directory ‘AlphaPose/configs/coco/resnet’
-      - Add ‘fast_421_res152_256x192.pth’ to directory  ‘AlphaPose/model_files’ (this file is available to download: https://github.com/MVIG-SJTU/AlphaPose/blob/master/docs/MODEL_ZOO.md
+  - Replace writer file in alphapose/utils
+  - Add process_videos into the scripts folder
+  - Add ‘256x192_res152_lr1e-3_1x-duc.yaml’ to directory ‘AlphaPose/configs/coco/resnet’
+  - Add ‘fast_421_res152_256x192.pth’ to directory  ‘AlphaPose/model_files’ (this file is available to download: https://github.com/MVIG-SJTU/AlphaPose/blob/master/docs/MODEL_ZOO.md
 
 ### Step 3 - Data Normalisation 
 
@@ -67,13 +67,22 @@ Additional dance added for further analysis:
 
 ### Step 7 - Research Questions
 
-1. When videos have the same soundtrack, do videos with dance routines receive more engagement?
+- research_questions_step7
+  - Use of graphs, regressions and ANOVA. 
 
-    a) Does the answer change as the number of people following an account changes?
+**1. When videos have the same soundtrack, do videos with dance routines receive more engagement?**
+
+- Generally, yes on average.
+
+    **a) Does the answer change as the number of people following an account changes?**
+    - No, the amount of followers usually increases likes for both dancing and non dancing videos.
 
 2. Do videos with multiple dancers perform better or worse than those with one dancer?
 
-- research_questions_step7
+- No, they perform similarly.
+
+
+
 
 
 ## Future Work
@@ -86,3 +95,7 @@ Additional dance added for further analysis:
 - Calculate number of people in each dance more accurately
 - Get alternative clustering techniques working correctly
 
+
+## Note
+
+The csv files are too large to be uploaded here, but the necessary steps to obtain the data can be done by following the steps. 
